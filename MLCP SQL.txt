@@ -1,0 +1,21 @@
+CREATE view bookings AS
+SELECT
+mlcp_booking.slotid AS booking_slot,
+mlcp_booking.book_timein,
+mlcp_booking.book_timeout,
+mlcp_booking.isconfirmed,
+mlcp_booking.issecurityupdate,
+mlcp_booking.vehiclenumber,
+mlcp_floor.floorid,
+mlcp_floor.floorname,
+mlcp_floor.noofslots,
+mlcp_slot.slotid,
+mlcp_slot.slotname,
+mlcp_slot.status,
+mlcp_slot.isReserved
+FROM mlcp_booking,mlcp_floor,mlcp_slot WHERE
+mlcp_booking.slotid=mlcp_slot.slotid AND
+mlcp_slot.floorid=mlcp_floor.floorid 
+
+
+SELECT count(*) FROM `bookings` WHERE floorid='1'

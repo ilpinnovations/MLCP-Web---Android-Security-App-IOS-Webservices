@@ -1,0 +1,32 @@
+Failed to connect to APNS: 111 Connection refused.
+
+	1) APNS::processQueue -> File: samples.php (line 94)
+	2) APNS::_fetchMessages -> File: class_APNS.php (line 1131)
+	3) APNS::_iterateMessages -> File: class_APNS.php (line 416)
+	4) APNS::_connectSSLSocket -> File: class_APNS.php (line 466)
+	5) APNS::_triggerError -> File: class_APNS.php (line 492)
+
+A connected socket to APNS wasn't available.
+
+	1) APNS::processQueue -> File: samples.php (line 94)
+	2) APNS::_fetchMessages -> File: class_APNS.php (line 1131)
+	3) APNS::_iterateMessages -> File: class_APNS.php (line 416)
+	4) APNS::_pushMessage -> File: class_APNS.php (line 468)
+	5) APNS::_triggerError -> File: class_APNS.php (line 536)
+
+Failed to connect to APNS: 111 Connection refused.
+
+	1) APNS::processQueue -> File: samples.php (line 94)
+	2) APNS::_fetchMessages -> File: class_APNS.php (line 1131)
+	3) APNS::_iterateMessages -> File: class_APNS.php (line 416)
+	4) APNS::_connectSSLSocket -> File: class_APNS.php (line 466)
+	5) APNS::_triggerError -> File: class_APNS.php (line 492)
+
+A connected socket to APNS wasn't available.
+
+	1) APNS::processQueue -> File: samples.php (line 94)
+	2) APNS::_fetchMessages -> File: class_APNS.php (line 1131)
+	3) APNS::_iterateMessages -> File: class_APNS.php (line 416)
+	4) APNS::_pushMessage -> File: class_APNS.php (line 468)
+	5) APNS::_triggerError -> File: class_APNS.php (line 536)
+

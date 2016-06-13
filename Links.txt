@@ -1,0 +1,48 @@
+Floor free slots
+http://mymlcp.co.in/android/floor_free_slots.php?floorid=1
+
+Floor List
+http://mymlcp.co.in/android/floor_list.php
+
+Floor Occupied Slots
+http://mymlcp.co.in/android/floor_occupied_slots.php?floorid=1
+
+Floor Reserved Slots
+http://mymlcp.co.in/android/floor_reserved_slots.php?floorid=1
+
+Get Next Slot
+http://mymlcp.co.in/android/get_next_slot.php
+
+Live Allocations for floor
+http://mymlcp.co.in/android/live_allocations_for_floor.php?floor=GA [floor is floor name]
+
+Live data for floors 
+http://mymlcp.co.in/android/live_data_for_floors.php?floor_name=GA
+
+Recent Allocated cars
+http://mymlcp.co.in/android/recent_alocated_cars.php
+
+Release Slot when occupied
+http://mymlcp.co.in/android/release_slot_when_occupied.php?slot_id=&vehiclenumber=
+
+Reserve slots in free slots [Post method]
+http://mymlcp.co.in/android/reserve_slot_in_freeslots.php?slot_id=&vehicle_no=
+
+Reserve slots in occupied slots
+http://mymlcp.co.in/android/reserve_slot_in_occupiedslots.php?slot_id=&vehicle_no=&booked_vno=
+(vehicle_no is security input vehicle number. booked_vno is vehicle number of the employee to whome that particular slot is allocated)
+
+Search Slot 
+http://mymlcp.co.in/android/search_slot.php?slot_name=GA2 [Post Method]
+
+Search Vehicle
+http://mymlcp.co.in/android/search_vehicle.php?vehicle_no=GA2  [Post Method]
+
+Slot Details for floor
+http://mymlcp.co.in/android/slot_details_for_floor.php?floor=1 [floor is floor id]
+
+Time Excedded Ascending order
+http://mymlcp.co.in/android/time_excedded_asc.php
+
+Time excedded descending order
+http://mymlcp.co.in/android/time_excedded_desc.php

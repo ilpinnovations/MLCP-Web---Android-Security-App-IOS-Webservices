@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:vehiclenumber;datatype:string,name:infoparkpass;datatype:string,name:tcspass;datatype:string,name:remark;datatype:string,name:employeeid;datatype:int,name:vehiclesize;datatype:string,name:rfid;datatype:string" />
+</info>
